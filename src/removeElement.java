@@ -28,7 +28,7 @@ public class removeElement
         //copy elements from original array from start till index into duplicate_a
         System.arraycopy(a,0,duplicate_a,0,index);
 
-        //copy elemnts from original array from index+1 till end
+        //copy elemnts from original array from index+1 till end...//
         System.arraycopy(a,index+1,duplicate_a,index,a.length-index-1);
 
         //display the copied array after deletion
